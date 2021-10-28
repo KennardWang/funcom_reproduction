@@ -141,7 +141,7 @@ if __name__ == '__main__':
     prep('loading tokenizers... ')
     tdatstok = pickle.load(open('%s/dats.tok' % (dataprep), 'rb'), encoding='UTF-8')
     comstok = pickle.load(open('%s/coms.tok' % (dataprep), 'rb'), encoding='UTF-8')
-    #smltok = pickle.load(open('%s/smls.tok' % (dataprep), 'rb'), encoding='UTF-8')
+    smltok = pickle.load(open('%s/smls.tok' % (dataprep), 'rb'), encoding='UTF-8')
     drop()
 
     prep('loading sequences... ')
@@ -162,11 +162,11 @@ if __name__ == '__main__':
     allfids = list(seqdata['ctest'].keys())
     datvocabsize = tdatstok.vocab_size
     comvocabsize = comstok.vocab_size
-    #smlvocabsize = smltok.vocab_size
+    smlvocabsize = smltok.vocab_size
 
     datlen = len(seqdata['dtest'][list(seqdata['dtest'].keys())[0]])
     comlen = len(seqdata['ctest'][list(seqdata['ctest'].keys())[0]])
-    #smllen = len(seqdata['stest'][list(seqdata['stest'].keys())[0]])
+    smllen = len(seqdata['stest'][list(seqdata['stest'].keys())[0]])
 
     prep('loading config... ')
     (modeltype, mid, timestart) = modelfile.split('_')
@@ -195,11 +195,11 @@ if __name__ == '__main__':
         st = timer()
         for fid in fid_set:
             dat = seqdata['dtest'][fid]
-            #sml = seqdata['stest'][fid]
+            sml = seqdata['stest'][fid]
             
             # adjust to model's expected data size
             dat = dat[:config['tdatlen']]
-            #sml = sml[:config['smllen']]
+            sml = sml[:config['smllen']]
 
             if num_inputs == 2:
                 batch[fid] = np.asarray([dat, comstart])
