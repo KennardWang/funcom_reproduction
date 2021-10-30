@@ -111,7 +111,7 @@ if __name__ == '__main__':
     parser.add_argument('--num-inputs', dest='numinputs', type=int, default=3)
     parser.add_argument('--model-type', dest='modeltype', type=str, default=None)
     parser.add_argument('--outfile', dest='outfile', type=str, default=None)
-    parser.add_argument('--zero-dats', dest='zerodats', action='store_true', default=False)
+    parser.add_argument('--zero-dats', dest='zerodats', action='store_true', default=False)  # default=True means all the dat values will become 0
     parser.add_argument('--dtype', dest='dtype', type=str, default='float32')
     parser.add_argument('--tf-loglevel', dest='tf_loglevel', type=str, default='3')
 
