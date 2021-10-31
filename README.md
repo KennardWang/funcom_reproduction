@@ -21,7 +21,7 @@
 
 #### Step 2 : Model Training
 + Please create `outdir` directory under `./funcom_reproduction/scratch/funcom/data`, and then create 3 directories `histories`, `models` and `predictions` respectively under `outdir`. After creation, you can execute step 0, 0.5, 1 and 2 in *.ipynb* file for training.
-+ ***Attention :*** The epoch suggested by the author is 5 ( each epoch nearly costs more than 2 hours ) because the effect will decrease if epoch > 5. But in my case, ast-attendgru model will abort exceptionally at 4th epoch so that eventually I choose epoch = 3 for comparison. The epoch value can be modified in [line 79](https://github.com/KennardWang/funcom_reproduction/blob/c5237097e10827daf476be20fce71d0ca71d6609/train.py#L79) of ***train.py***. Or you can also use my models in ***Models*** and skip this step because everything will be explained in Step 3.
++ ***Attention :*** The epoch suggested by the author is 5 ( each epoch nearly costs more than 2 hours ) because the effect will decrease if epoch > 5. But in my case, ast-attendgru model will abort exceptionally at 4th epoch so that eventually I choose epoch = 3 for comparison. The epoch value can be modified at [line 79 in ***train.py***](https://github.com/KennardWang/funcom_reproduction/blob/a04196f56efeffce67df53ac04e3a0c6d9ebd887/train.py#L79). Or you can also use my models in ***Models*** and skip this step because everything will be explained in Step 3.
 
 #### Step 3 : Comment Generation & BLEU Score Calculation ( standard data set )
 + The ***attendgru*** model and ***ast-attendgru*** model has been released in ***Models***. You can directly use them to generate comment for calculating BLEU score. If you have done Step 2, please start from point 3 following.
@@ -40,7 +40,7 @@ I give my results for you guys to check:
 |attendgru, E05|19.14|37.88|21.4|14.66|11.3|
 
 #### Step 4 : Comment Generation & BLEU Score Calculation ( challenge data set )
-+ Modify [line 114](https://github.com/KennardWang/funcom_reproduction/blob/c5237097e10827daf476be20fce71d0ca71d6609/predict.py#L114) in ***predict.py***, change default value from `False` to `True`.
++ Modify [line 114 in ***predict.py***](https://github.com/KennardWang/funcom_reproduction/blob/a04196f56efeffce67df53ac04e3a0c6d9ebd887/predict.py#L114), change default value from `False` to `True`.
 + Redo point 3 and 4 in Step 3.
 
 ------
