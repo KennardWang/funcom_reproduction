@@ -1,6 +1,6 @@
 # funcom_reproduction
 
-### Source Info
+### Credit
 
 | Paper | **A Neural Model for Generating Natural Language Summaries of Program Subroutines** |
 |:---:|:---:|
