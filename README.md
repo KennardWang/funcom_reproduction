@@ -17,7 +17,7 @@
 + Please download and unzip ***Models*** and ***Data Set*** at [Release](https://github.com/KennardWang/funcom_reproduction/releases), as well as the source code.
 
 #### Step 1 : Directory Setting
-+ Create directory and make sure that ***data*** file is located at `./funcom_reproduction/scratch/funcom/data`.
++ Upload the whole ***funcom_reproduction*** file to the Google Drive root ( Everyone has 15GB free storage, I think maybe enough ). Create directory and make sure that ***data*** file is located at `./funcom_reproduction/scratch/funcom/data`.
 
 #### Step 2 : Model Training
 + Please create `outdir` directory under `./funcom_reproduction/scratch/funcom/data`, and then create 3 directories `histories`, `models` and `predictions` respectively under `outdir`. After creation, you can execute step 0, 0.5, 1 and 2 in *.ipynb* file for training.
