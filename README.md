@@ -1,13 +1,22 @@
 # funcom_reproduction
 
 <div align="center">  
-  <img src="https://img.shields.io/badge/paper-Reproduce-1F1F1F?style=for-the-badge" />
+
+  [![description](https://img.shields.io/badge/paper-Reproduce-1F1F1F?style=for-the-badge)](https://github.com/KennardWang/funcom_reproduction)
   &nbsp;
-  <img src="https://img.shields.io/github/stars/KennardWang/funcom_reproduction?style=for-the-badge&color=FDEE21" />
+  [![stars](https://img.shields.io/github/stars/KennardWang/funcom_reproduction?style=for-the-badge&color=FDEE21)](https://github.com/KennardWang/funcom_reproduction/stargazers)
   &nbsp;
-  <img src="https://img.shields.io/github/forks/KennardWang/funcom_reproduction?style=for-the-badge&color=white" />
+  [![forks](https://img.shields.io/github/forks/KennardWang/funcom_reproduction?style=for-the-badge&color=white)](https://github.com/KennardWang/funcom_reproduction/forks)
   &nbsp;
-  <img src="https://img.shields.io/github/contributors/KennardWang/funcom_reproduction?style=for-the-badge&color=8BC0D0" />
+  [![contributors](https://img.shields.io/github/contributors/KennardWang/funcom_reproduction?style=for-the-badge&color=8BC0D0)](https://github.com/KennardWang/funcom_reproduction/graphs/contributors)
+
+  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />
 </div>
 
 
