@@ -1,11 +1,13 @@
 # funcom_reproduction
 
-<div align="center">
-  <img src="https://img.shields.io/github/stars/KennardWang/funcom_reproduction" />
-  <img src="https://img.shields.io/github/forks/KennardWang/funcom_reproduction" />
-  <img src="https://img.shields.io/github/contributors/KennardWang/funcom_reproduction" />
-  <img src="https://img.shields.io/github/license/KennardWang/funcom_reproduction" />
-  <img src="https://img.shields.io/badge/code-reproduction-purple" />
+<div align="center">  
+  <img src="https://img.shields.io/badge/paper-Reproduce-1F1F1F?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/KennardWang/funcom_reproduction?style=for-the-badge&color=FDEE21" />
+  &nbsp;
+  <img src="https://img.shields.io/github/forks/KennardWang/funcom_reproduction?style=for-the-badge&color=white" />
+  &nbsp;
+  <img src="https://img.shields.io/github/contributors/KennardWang/funcom_reproduction?style=for-the-badge&color=8BC0D0" />
 </div>
 
 
@@ -63,7 +65,7 @@
 
 ## Maintainers
 
-[@KennardWang](https://github.com/KennardWang).
+![badge](https://img.shields.io/badge/maintenance-NO-EF2D5E) [@KennardWang](https://github.com/KennardWang)
 
 
 
@@ -75,4 +77,4 @@ Feel free to [open an issue](https://github.com/KennardWang/funcom_reproduction/
 
 ## License
 
-[MIT](LICENSE) © Kennard Wang. ( 2021.10.30 )
+[![license](https://img.shields.io/github/license/KennardWang/funcom_reproduction)](LICENSE) © Kennard Wang ( 2021.10.30 )
