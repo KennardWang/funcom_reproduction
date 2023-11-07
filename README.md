@@ -2,7 +2,7 @@
 
 <div align="center">  
 
-  [![description](https://img.shields.io/badge/paper-Reproduce-1F1F1F?style=for-the-badge)](https://github.com/KennardWang/funcom_reproduction)
+  [![description](https://img.shields.io/badge/paper-Reproduce-DDA0DD?style=for-the-badge)](https://github.com/KennardWang/funcom_reproduction)
   &nbsp;
   [![stars](https://img.shields.io/github/stars/KennardWang/funcom_reproduction?style=for-the-badge&color=FDEE21)](https://github.com/KennardWang/funcom_reproduction/stargazers)
   &nbsp;
@@ -12,7 +12,7 @@
 
   <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  <img src="https://img.shields.io/badge/Python-D5C100?style=for-the-badge&logo=python&logoColor=blue" />
   &nbsp;
   <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
   &nbsp;
